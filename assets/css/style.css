@@ -1,14 +1,13 @@
-* {
+/* Global/Body Styles START */* {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-/* Body Styles START */
 body {
     background-color: #d9dcd6;
     font-size: 16px;
 }
-/* Body Styles END */
+/* Global/Body Styles END */
 /* Header Styles START */
 header {
     padding: 20px;
@@ -20,6 +19,11 @@ header h1 {
     display: inline-block;
     font-size: 48px;
 }
+header h1 a {
+    color: #ffffff;
+    text-decoration:none;
+}
+/* Adjusts color of 'seo' in 'Horiseon' */
 header h1 .seo {
     color: #d9dcd6;
 }
@@ -53,16 +57,42 @@ header nav ul li a {
 }
 /* Hero Styles END */
 /* Utility Class Styles START */
-.img-left {
-    padding-right: 25px;
+.float-left {
+    /* padding-right: 25px; */
+    float: left;
+    margin-right: 25px;
 }
-
-.img-right {
-    padding-left: 25px;
+.float-right {
+    float: right;
+    margin-left: 25px;
 }
 /* Utility Class Styles END */
+/* Services Styles START */
+.services {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+.service {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+.service h2{
+    margin-bottom: 20px;
+    font-size: 36px;   
+}
+.service img {
+    max-height: 200px;
+}
+/* Services Section Styles END */
+/* Benefits Section Styles START */
 .benefits {
     margin-right: 20px;
+    margin-left: 20px;
     padding: 20px;
     clear: both;
     float: right;
@@ -71,152 +101,28 @@ header nav ul li a {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-
-.benefit-lead {
+.benefit {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
+.benefit h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
+.benefit img{
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-/* Main Section Styles START */
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-    overflow: auto;
-}
-.services {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-    overflow: auto;
-}
-.services h2{
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-.services img {
-    max-height: 200px;
-    width: 30%;
-    float: left;
-    overflow: auto;
-}
-.service-description {
-    width: 70%;
-    float: left;
-    overflow: auto;
-    vertical-align: top;
-    padding: 0;
-    height: 200px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-.search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-/* Main Section Styles END */
+/* Benefits Section Styles END */
+/* Footer Styles START */
 .footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
-
 .footer h2 {
     font-size: 20px;
 }
+/* Footer Styles END */
