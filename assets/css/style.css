@@ -42,6 +42,7 @@ header nav ul li a {
     text-decoration: none;
 }
 /* Header Styles END */
+/* Hero Styles START */
 .hero {
     height: 800px;
     width: 100%;
@@ -50,7 +51,7 @@ header nav ul li a {
     background-size: cover;
     background-position: center;
 }
-
+/* Hero Styles END */
 .float-left {
     float: left;
     margin-right: 25px;
