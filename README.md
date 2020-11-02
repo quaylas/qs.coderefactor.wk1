@@ -30,7 +30,12 @@ Table of Contents
 ## Images
 ### Deployed Updates
 The refactored site displays almost identically to the original, as shown below.
+
+Site Deployed with Updates:
 ![Image of refactored site](./assets/images/Horiseon_Refactored.png)
+
+Mockup Provided:
+![Image of mockup provided](./assets/images/Horiseon_Mockup.png)
 
 ### HTML Comparison
 HTML has been updated to leverage semantic HTML elements. 
