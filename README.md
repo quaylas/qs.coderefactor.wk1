@@ -6,7 +6,7 @@ The refactored site has been deployed at [this link](https://quaylas.github.io/q
 
 Table of Contents
 * [Key Changes](key-changes)
-* [ Images](images)
+* [Images](images)
 
 ---
 
